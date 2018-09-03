@@ -21,4 +21,5 @@
 
 #define PERMISSIVE_HOLD
 
+#define MOUSEKEY_DELAY             0
 
