@@ -21,7 +21,10 @@
 
 #define PERMISSIVE_HOLD
 
-#define MOUSEKEY_DELAY             0
-#define MOUSEKEY_TIME_TO_MAX       10
-#define MOUSEKEY_WHEEL_TIME_TO_MAX 10
+#define MOUSEKEY_DELAY             0   // 300
+#define MOUSEKEY_INTERVAL          16  // 50
+#define MOUSEKEY_MAX_SPEED         7   // 10
+#define MOUSEKEY_TIME_TO_MAX       20  // 20
+#define MOUSEKEY_WHEEL_MAX_SPEED   1   // 8
+#define MOUSEKEY_WHEEL_TIME_TO_MAX 255 // 40
 
